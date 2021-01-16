@@ -1,3 +1,19 @@
 *{
-    background-color:black;
+    background-color:#282828;
+    color:white;
 }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .center p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px double rgb(145, 43, 25);
+    padding:50px;
+  }
