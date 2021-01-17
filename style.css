@@ -17,3 +17,6 @@
     border: 3px double rgb(145, 43, 25);
     padding:50px;
   }
+  p{
+    transition: color 1s;
+  }
